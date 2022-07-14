@@ -1,0 +1,105 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.acordeon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+
+.acordeon .container{
+    max-width: 655PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFC;
+    padding: 33px 0 21px 0;
+    border-radius: 2.1rem;
+}
+
+.img-acordeon{
+    position: relative;
+    left: -90px;
+    width: 278px;
+    height: 293px;
+}
+
+.acordeon .container .perguntas{
+    position: relative;
+    right: 50px;
+}
+
+.acordeon .container .perguntas .title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+}
+
+/* .acordeon .container .perguntas .pergunta h2::after{
+    content: '';
+    background: url(../image/seta.png) center no-repeat;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 41px;
+} */
+
+.acordeon .container .perguntas .pergunta a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acordeon .container .perguntas .pergunta a .seta{
+    width: 15px;
+    height: 10px;
+    margin-left: 41px;
+    transform: rotate(-90deg);
+    /* filter: opacity(0.5) drop-shadow(0 0 0 orange) contrast(2);  */
+}
+
+.acordeon .container .perguntas .pergunta{
+    margin-bottom: 15PX;
+}
+
+.acordeon .container .perguntas .pergunta a h2{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    font-size: 1.7rem;
+    font-weight: 500;
+    /* margin-bottom: 10px; */
+}
+
+.acordeon .container .perguntas .pergunta .info{
+    font-size: 1.5rem;
+    margin: 10PX 0;
+    /* height: 0;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    -ms-transition: height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out; */
+}
+
+.escondido{
+    display: none;
+}
+
+
+
+
+
+
+
+
